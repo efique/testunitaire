@@ -1,0 +1,22 @@
+{
+    "name": "valentin/testunitaire",
+    "authors": [
+        {
+            "name": "Efique",
+            "email": "valentin.barriol@ynov.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\tests\\": "tests"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
